@@ -1,0 +1,382 @@
+@font-face {
+    font-family: "Ubuntu, Regular";
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: "Ubuntu, Medium";
+    src: url(fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: "Ubuntu, Light";
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: "Ubuntu, Italic";
+    src: url(fonts/Ubuntu-Italic.ttf);
+}
+@font-face {
+    font-family: "Ubuntu, Bold";
+    src: url(fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: "TimesGothic";
+    src: url(fonts/TimesGothic.ttf);
+}
+.um20_white{
+    font-family: "Ubuntu, Medium";
+    font-size: 20px;
+    color: #FFFEFF;
+}
+.ub30_white{
+    font-family: "Ubuntu, Bold";
+    font-size: 30px;
+    color: #FFFEFF;
+}
+.ub55_white{
+    font-family: "Ubuntu, Bold";
+    font-size: 55px;
+    color: #FFFEFF;
+}
+.ur22_white{
+    font-family: "Ubuntu, Regular";
+    font-size: 22px;
+    color: #FFFEFF;
+}
+.ub22_blue{
+    font-family: "Ubuntu, Bold";
+    font-size: 22px;
+    color: #2D5299;
+}
+.ur55_black{
+    font-family: "Ubuntu, Regular";
+    font-size: 45px;
+    color: #000000;
+}
+.ub55_black{
+    font-family: "Ubuntu, Bold";
+    font-size: 45px;
+    color: #000000;
+}
+.ur26_black{
+    font-family: "Ubuntu, Regular";
+    font-size: 26px;
+    color: #000000;
+}
+.r26_black{
+    font-family: "Roboto";
+    font-size: 26px;
+    color: #000000;
+}
+.ur20_black{
+    font-family: "Ubuntu, Regular";
+    font-size: 20px;
+    color: #000000;
+}
+.ul16_black{
+    font-family: "Ubuntu, Light";
+    font-size: 16px;
+    color: #000000;
+}
+.um20_black{
+    font-family: "Ubuntu, Medium";
+    font-size: 20px;
+    color: #000000;
+}
+.ub30_black{
+    font-family: "Ubuntu, Bold";
+    font-size: 30px;
+    color: #000000;
+}
+.i20_black{
+    font-family: "Inter";
+    font-size: 20px;
+    color: #000000;
+}
+.m16_black{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #000000;
+}
+.a20_black{
+    font-family: "TimesGothic";
+    font-size: 20px;
+    color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_main {
+    position: absolute;
+    /* max-width: 1920px; */
+    width: 100%;
+    height: 130px;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid #0000002f;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background: #2D5299;
+    border-bottom: 1px solid #0000002f;
+}
+.logo{
+    width: 100px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header_main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header nav {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px #0000004d);
+}
+
+.block_logo{
+    display: flex;
+    align-items: center;
+    width: 210px;
+    justify-content: space-between;
+
+}
+.text_logo{
+    width: 100px;
+}
+
+.main_banner {
+    background-image: url(img/main_banner.png);
+    width: 100%;
+    height: 920px;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* .main_banner .container {
+    display: flex;
+    justify-content: end;
+} */
+.offer{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    padding: 7px 20px;
+    border-radius: 12px;
+    border: none;
+}
+
+.block_search{
+    margin: 85px 0;
+    width: 100%;
+    height: 320px;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 10px #00000048);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 40px;
+}
+
+.poisk{
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.advantages{
+    margin-bottom: 100px;
+}
+.block_advantages{
+    margin: 50px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.mini_block_advantages{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.block_cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini_block_cards{
+    width: 32%;
+    border-radius: 12px;
+    background-color: #FFF;
+    filter: drop-shadow(0px 0px 10px #00000048);
+}
+.img_cards{
+    border-radius: 12px 12px 0 0;
+}
+.text_card{
+    padding: 10px 20px;
+}
+.search1{
+    padding: 20px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+.block_search1{
+    margin: 85px 0;
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 10px #00000048);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+.btn{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+}
+footer{
+    width: 100%;
+    background: #2D5299;
+}
+.footer{
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+.contacts2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+}
+.block_account{
+    margin: 85px 0;
+    width: 50%;
+    align-items: center;
+    height: 380px;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 10px #00000048);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+.block_account1{
+    margin: 85px 0;
+    width: 50%;
+    align-items: center;
+    height: 580px;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 10px #00000048);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+.block_account2{
+    margin: 85px 0;
+    width: 50%;
+    align-items: center;
+    height: 880px;
+    background: #ffffff;
+    filter: drop-shadow(0px 0px 10px #00000048);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+.search2{
+    padding: 20px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.appear{
+    display: none;
+}
+.checkbox:has(#horns:checked)~.appear{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
